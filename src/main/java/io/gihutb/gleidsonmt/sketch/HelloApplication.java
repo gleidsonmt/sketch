@@ -21,7 +21,7 @@ public class HelloApplication extends Application {
             version = "Dev";
         var revision = System.getProperty("app.revision");
         var fullVersion = version + (revision != null ? "-" + revision : "");
-        stage.setTitle("Hello from version " + fullVersion);
+        stage.setTitle("Update in for me" + fullVersion);
         stage.setScene(scene);
         loadIconsForStage(stage);
         stage.show();
